@@ -23,8 +23,8 @@ CREATE TABLE games (
     release_year INTEGER,
     genres INTEGER,
     created_by INTEGER,
-    FOREIGN KEY (developer) REFERENCES developers(id) ON DELETE CASCADE,
-    FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE CASCADE
+    FOREIGN KEY (developer) REFERENCES developers(id),
+    FOREIGN KEY (created_by) REFERENCES users(id)
 );
 
 CREATE TABLE reviews (

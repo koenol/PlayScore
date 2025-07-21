@@ -7,19 +7,20 @@ This app is a project created for the University of Helsinki's TKT20019 - Databa
 -   Users can create an account and log in to the app.
 -   Users can add, edit and delete game reviews.
 -   Users can see all the other peoples entries.
--   Users can search for entries using keywords or other filters and categorize them with one or more tags or genres.
+-   Users can search for entries using keywords or other filters and categorize them with one or more tags.
 -   The user's page displays statistics, e.g the number of reviews submitted and average score given.
 -   Users can add secondary data or related entries to a primary entry.
 
-Create a virtual environment
+Create and activate a virtual environment
 
 ```
+Create:
 $ python3 -m venv venv
 
-Linux:
+Activate (Linux):
 $ source venv/bin/activate
 
-Windows:
+Activate (Windows):
 $ venv\Scripts\activate
 ```
 
@@ -29,7 +30,7 @@ Install flask library
 $ pip install flask
 ```
 
-Create a database and initialize the database schema
+Create a database and generate a secret key.
 
 ```
 $ python install.py
