@@ -11,7 +11,17 @@ This app is a project created for the University of Helsinki's TKT20019 - Databa
 -   The user's page displays statistics, e.g the number of reviews submitted and average score given.
 -   Users can add secondary data or related entries to a primary entry.
 
-## Installation
+Create a virtual environment
+
+```
+$ python3 -m venv venv
+
+Linux:
+$ source venv/bin/activate
+
+Windows:
+$ venv\Scripts\activate
+```
 
 Install flask library
 
@@ -23,6 +33,12 @@ Create a database and initialize the database schema
 
 ```
 $ python install.py
+```
+
+Start the Flask app
+
+```
+$ flask run
 ```
 
 ## Database Diagram

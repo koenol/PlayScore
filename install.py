@@ -20,8 +20,8 @@ if not os.path.exists("database.db"):
         print(f"Error creating database.db: {e}")
 
     try:
-        with open("config.py", "w") as config_file:
+        with open(".env", "w") as config_file:
             secret_key = secrets.token_hex(32)
             config_file.write(f"SECRET_KEY = \"{secret_key}\"\n")
     except Exception as e:
-        print(f"Error creating config.py: {e}")
+        print(f"Error creating .env: {e}")
