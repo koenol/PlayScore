@@ -44,6 +44,6 @@ $ flask run
 
 ## Database Diagram
 
-_Last Updated: 2.11.2025_ (dd/mm/yy)
+_Last Updated: 2.11.2025_ (dd/mm/yyyy)
 
-![](static/images/db_diagram_v1.png)
+![](static/db_diagram_v1.png)
